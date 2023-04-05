@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root {
+    --bgGrey: #2C2C2C;
+    --btnGrey: #333333;
+    --titleGrey: #BDBDBD;
+    --greyBg: #F3F3F3;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',
+        sans-serif;
+
+}
+
+/* utilities css */
+.container-pd {
+    padding-inline: 100px;
+
+}
+
+.container-mg {
+    margin-inline: 100px;
+}
+
+/* utilities css */
+/* nav css */
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 200px;
+    padding-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    margin-left: 160px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 13px;
+
+}
+
+nav ul li:hover {
+
+    border-block: 1px solid #333333;
+    ;
+}
+
+/* nav css */
+
+/* hero css */
+.hero {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.heroImge {
+    position: relative;
+
+
+}
+
+.heroImge img {
+    height: 600px;
+    width: 760px;
+}
+
+.heroText {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+
+}
+
+.heroText h1:nth-child(1) {
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    color: var(--titleGrey);
+
+}
+
+.heroText h1:nth-child(2) {
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 90px;
+
+}
+
+.heroText span {
+    height: 53px;
+    width: 53px;
+    background: linear-gradient(0deg, #F2F2F2, #F2F2F2);
+    border: 1px solid #F2F2F2;
+    padding: 10px;
+
+
+
+}
+
+.paging {
+    margin-top: 90px;
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #bdbdbdbb;
+
+}
+
+.heroText .first {
+    margin-right: 20px;
+}
+
+.imgBtn {
+    position: absolute;
+    height: 60px;
+    width: 222px;
+    background-color: #fff;
+    border: none;
+    left: 0;
+    bottom: 0;
+
+}
+
+.imgBtn:hover {
+    border: var(--titleGrey) solid 0.8px;
+    cursor: pointer;
+}
+
+i.left {
+    transform: rotate(180deg);
+
+
+}
+
+.hero span:hover {
+    background: #fff;
+    cursor: pointer;
+    transform: scale(1.9);
+
+}
+
+/* hero css */
+
+/* company css */
+
+.company {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    background: #fbfbfbe6;
+    padding-inline: 100px;
+    margin-top: 50px;
+    height: 435px;
+
+
+}
+
+.company-text {
+    display: flex;
+    gap: 30px;
+}
+
+.company-img img:nth-child(1) {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.company-img:nth-child(2) {
+    margin-top: 50px;
+
+}
+
+.about h1 {
+    font-family: inherit;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 64px;
+    color: #BDBDBD;
+
+
+}
+
+.about-btn {
+
+    height: 60px;
+    width: 222px;
+    background-color: #fff;
+    border: none;
+    left: 0;
+    bottom: 0;
+    margin-top: 20px;
+
+}
+
+.about-btn:hover {
+    cursor: pointer;
+    border: .5px solid var(--titleGrey);
+}
+
+.about p {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+
+
+}
+
+
+/* company css */
+
+/* numbers css */
+.numbers {
+    margin-top: 100px;
+}
+
+.numbers-details {
+    display: flex;
+    justify-content: start;
+    gap: 170px;
+
+}
+
+.numbers-details div {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 500px;
+
+}
+
+.numbers-details div h1 {
+    font-family: inherit;
+    font-size: 150px;
+    font-weight: 900;
+    /* line-height: 239px; */
+    color: #F2F2F2;
+
+
+}
+
+.numbers-details div p {
+    padding-top: 40px;
+    line-height: 25px;
+}
+
+.numbers>h1 {
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    color: #BDBDBD;
+    ;
+
+}
+
+/* numbers css */
+
+/* pictures css */
+.images {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.overlayer {
+    position: relative;
+}
+
+.overlayer:hover .over-section {
+    display: block;
+}
+
+.over-section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #2c2c2c6c;
+    top: 0;
+    color: white;
+    left: 0;
+    padding: 70px;
+    display: none;
+}
+
+.over-section h1 {
+    font-family: inherit;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+
+
+}
+
+.layerbtn {
+    background: transparent;
+    font-size: 18px;
+    color: #F3F3F3;
+    border: none;
+    cursor: pointer;
+}
+
+.pictures>h1 {
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    color: #BDBDBD;
+    margin-block: 40px;
+
+}
+.BTN{
+    height: 60px;
+    width: 200px;
+    float: right;
+    background: #333333;
+    margin-right: -15px;
+
+
+}
+
+/* pictures css */
