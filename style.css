@@ -18,6 +18,10 @@
 
 }
 
+body {
+    transition: all .6s;
+}
+
 /* utilities css */
 .container-pd {
     padding-inline: 100px;
@@ -335,7 +339,8 @@ i.left {
     margin-block: 40px;
 
 }
-.BTN{
+
+.BTN {
     height: 60px;
     width: 200px;
     float: right;
@@ -346,3 +351,157 @@ i.left {
 }
 
 /* pictures css */
+
+
+/* contact css */
+
+.contact-form {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 30px;
+
+}
+
+.form h1 {
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    color: #BDBDBD;
+    margin-bottom: 40px;
+
+
+
+}
+
+form input {
+    width: 391px;
+    margin-bottom: 15px;
+    background: #F3F3F3;
+    height: 46px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 8px;
+
+}
+
+form textarea {
+    width: 391px;
+    margin-bottom: 20px;
+    background: #F3F3F3;
+    height: 130px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 8px;
+
+}
+
+.form {
+    margin-top: 140px;
+    margin-bottom: 120px;
+}
+
+.contactImg {
+
+    height: 369px;
+    width: 749px;
+
+}
+
+.form-BTN {
+    height: 60px;
+    width: 200px;
+    background: #333333;
+    margin-right: -15px;
+    margin-top: 15px;
+
+
+}
+
+/* contact css */
+
+
+/* footer css */
+footer {
+    background: var(--bgGrey);
+    color: #fff;
+
+}
+
+.footer-logo {
+    height: 94px;
+    width: 145px;
+
+}
+
+.footer-container {
+    display: flex;
+    gap: 120px;
+    height: 417px;
+    padding-top: 60px;
+
+}
+
+footer section ul h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer section ul li {
+    list-style: none;
+    padding-block: 10px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+
+
+}
+
+.list-2 {
+    width: 317px;
+
+
+}
+
+.list-2 li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+
+
+
+}
+
+.list-2 li i {
+    font-size: 20px;
+
+
+}
+
+.copyright {
+    text-align: center;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    border-top: #BDBDBD .5px solid;
+    padding-block: 20px;
+
+
+}
+
+.social-media i {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* footer css */
