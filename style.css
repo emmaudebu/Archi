@@ -729,5 +729,35 @@ footer section ul li {
 
 }
 
-
 /* contact PAGE CSS  */
+
+/* post-dtails PAGE CSS  */
+.post-img {
+    height: 428px;
+    width: 419px;
+   
+
+}
+.postdetail-box img {
+    height: 100%;
+    width: 100%;
+
+
+}
+.postdetail-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-block: 50px;
+}
+.postdetails p {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+
+
+
+}
+/* post-dtails PAGE CSS  */
