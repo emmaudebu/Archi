@@ -194,14 +194,21 @@ i.left {
 
 }
 
+.company-text>img {
+    margin-top: 50px;
+    height: 345px;
+    width: 270px;
+
+}
+
 .company-img:nth-child(2) {
     margin-top: 50px;
 
 }
 
-.about h1 {
+.about>h1 {
     font-family: inherit;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 300;
     line-height: 64px;
     color: #BDBDBD;
@@ -227,6 +234,7 @@ i.left {
 }
 
 .about p {
+    margin-top: 20px;
     font-family: inherit;
     font-size: 16px;
     font-weight: 300;
@@ -505,3 +513,221 @@ footer section ul li {
 }
 
 /* footer css */
+
+
+
+/* GALLERY PAGE CSS  */
+
+.gallery {
+    margin-block: 70px;
+}
+
+.gallery-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.gallery h1:nth-child(1) {
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    color: #BDBDBD;
+
+}
+
+.img-box:hover .box-layer {
+    display: block;
+}
+
+.img-box {
+    position: relative;
+}
+
+.box-layer p {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 20px;
+    margin-inline: 20px;
+
+}
+
+.box-layer {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: #edebeb;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+
+}
+
+.gallery h1:nth-child(2) {
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+
+
+/* GALLERY PAGE CSS  */
+
+
+/* POST PAGE CSS  */
+.posts {
+    margin-block: 70px;
+}
+
+.posts h1:nth-child(2) {
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.posts h1:nth-child(1) {
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    color: #BDBDBD;
+
+}
+
+.post-details h2 {
+    margin-top: 20px;
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #BDBDBD;
+    ;
+
+}
+
+.post-details p {
+    margin-right: 150px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+
+
+
+}
+
+.post-box {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 50px;
+    background: #FBFBFB;
+}
+
+.post-box img {
+    height: 300px;
+    width: 100%;
+
+
+}
+
+.post-btn {
+    height: 60px;
+    width: 222px;
+    background-color: #fff;
+    margin-top: 20px;
+    border: none;
+
+}
+
+.post-btn:hover {
+    border: var(--titleGrey) solid 0.8px;
+    cursor: pointer;
+}
+
+.post-arrow {
+    height: 53px;
+    width: 53px;
+    background: linear-gradient(0deg, #F2F2F2, #F2F2F2);
+    border: 1px solid #F2F2F2;
+    padding: 5px;
+    margin-inline: 20px;
+    cursor: pointer;
+
+}
+
+.post-arrow:hover {
+    background: white;
+}
+
+/* POST PAGE CSS  */
+
+
+/* Document PAGE CSS  */
+.document {
+    margin-block: 70px;
+}
+
+.document .paging {
+    text-align: right;
+
+
+
+}
+
+.document-box img {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.document h1:nth-child(1) {
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    color: #BDBDBD;
+
+}
+
+.document h1:nth-child(2) {
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+/* Document PAGE CSS  */
+
+/* contact PAGE CSS  */
+.contact-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.contact-details  button{
+    margin-top: 20px;
+}
+.contact-details div{
+    margin-block: 40px;
+}
+.tel{
+    margin-block: 40px;
+
+}
+
+
+/* contact PAGE CSS  */
