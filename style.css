@@ -1295,7 +1295,7 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
 
 
     .gallery {
-   padding-top: 20px;
+        padding-top: 20px;
         margin-block: 10px;
     }
 
@@ -1327,7 +1327,8 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
         position: relative;
         width: 100%;
     }
-    .img-box >img{
+
+    .img-box>img {
         height: 400px;
         width: 100%;
     }
@@ -1369,115 +1370,163 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
 
     /* ########## post page  mobile css ########### */
 
-.posts {
-    margin-block: 10px;
-}
+    .posts {
+        margin-block: 10px;
+    }
 
-.posts h1:nth-child(2) {
-    font-family: inherit;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 40px;
-    color: #333333;
-    margin-bottom: 50px;
-}
+    .posts h1:nth-child(2) {
+        font-family: inherit;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        color: #333333;
+        margin-bottom: 50px;
+    }
 
-.posts h1:nth-child(1) {
-    padding-top: 30px;
-    font-family: inherit;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 30px;
-    color: #BDBDBD;
+    .posts h1:nth-child(1) {
+        padding-top: 30px;
+        font-family: inherit;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 30px;
+        color: #BDBDBD;
 
-}
+    }
 
-.post-details h2 {
-    margin-top: 10px;
-    font-family: inherit;
-    font-size: 30px;
-    font-weight: 300;
-    line-height: 30px;
-    color: #BDBDBD;
-    ;
+    .post-details h2 {
+        margin-top: 10px;
+        font-family: inherit;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 30px;
+        color: #BDBDBD;
+        ;
 
-}
+    }
 
-.post-details p {
-    margin-right: 10px;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 25px;
-
-
-
-}
-
-.post-box {
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    background: #FBFBFB;
-}
-
-.post-box img {
-    height: 300px;
-    width: 100%;
-
-
-}
-
-.post-btn {
-    height: 60px;
-    width: 222px;
-    background-color: #fff;
-    margin-top: 20px;
-    border: none;
-
-}
-
-.post-btn:hover {
-    border: var(--titleGrey) solid 0.8px;
-    cursor: pointer;
-}
-
-.post-arrow {
-    height: 53px;
-    width: 53px;
-    background: linear-gradient(0deg, #F2F2F2, #F2F2F2);
-    border: 1px solid #F2F2F2;
-    padding: 5px;
-    margin-inline: 20px;
-    cursor: pointer;
-
-}
-
-.post-arrow:hover {
-    background: white;
-}
-.postdetail-box {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-block: 10px;
-}
-
-.postdetails p {
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 25px;
+    .post-details p {
+        margin-right: 10px;
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
 
 
 
-}
+    }
+
+    .post-box {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        background: #FBFBFB;
+    }
+
+    .post-box img {
+        height: 300px;
+        width: 100%;
+
+
+    }
+
+    .post-btn {
+        height: 60px;
+        width: 222px;
+        background-color: #fff;
+        margin-top: 20px;
+        border: none;
+
+    }
+
+    .post-btn:hover {
+        border: var(--titleGrey) solid 0.8px;
+        cursor: pointer;
+    }
+
+    .post-arrow {
+        height: 53px;
+        width: 53px;
+        background: linear-gradient(0deg, #F2F2F2, #F2F2F2);
+        border: 1px solid #F2F2F2;
+        padding: 5px;
+        margin-inline: 20px;
+        cursor: pointer;
+
+    }
+
+    .post-arrow:hover {
+        background: white;
+    }
+
+    .postdetail-box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-block: 10px;
+    }
+
+    .postdetails p {
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+
+    }
+
+    .detail-nav {
+        margin-top: 40px;
+    }
 
 
     /* ########## post page  mobile css ########### */
+
+
+    /* ########## contact page  mobile css ########### */
+   .document h1:nth-child(1) {
+       font-family: inherit;
+       font-size: 30px;
+       font-weight: 300;
+       line-height: 40px;
+       color: #BDBDBD;
+
+   }
+     .contact-details{
+        width: 100%;
+         margin: 0px;
+        padding: 0px;
+     }
+   
+   .document h1:nth-child(2) {
+       font-family: inherit;
+       font-size: 30px;
+       font-weight: 700;
+       line-height: 64px;
+       color: #333333;
+       margin-bottom: 10px;
+   }
+
+    .contact-box {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .contact-map {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    /* ########## contact page  mobile css ########### */
 
 
 
@@ -1494,3 +1543,17 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
 ############################################################################################################
 ############################################################################################################ */
 }
+
+
+
+/* ############################################################################################################ ############################################################################################################ */ 
+
+
+/* tablets */
+
+ @media screen and (max-width:768px) and (max-width: 991px) {
+    body{
+        color:red;
+    }
+ }
+
