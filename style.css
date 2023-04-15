@@ -897,13 +897,14 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 200px;
+        gap: 230px;
         padding-top: 5px;
         margin-top: 10px;
     }
 
     header nav {
         padding: 0px;
+        padding-left: 10px;
         margin-right: 0px;
     }
 
