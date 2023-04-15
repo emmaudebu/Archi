@@ -897,7 +897,7 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 270px;
+        gap: 260px;
         padding-top: 5px;
         margin-top: 10px;
     }
