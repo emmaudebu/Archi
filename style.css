@@ -1663,9 +1663,9 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
     /* ########## nav mobile css ########### */
     nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-        gap: 270px;
+        gap: 10px;
         padding-top: 5px;
         margin-top: 10px;
     }
@@ -1679,7 +1679,9 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
         display: block;
         font-size: 30px;
         margin-right: 0px;
+        margin-left: 300px;
         padding-right: 0px;
+
     }
 
     nav ul {
@@ -1728,6 +1730,10 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
         width: 100%;
         margin-bottom: 0px;
 
+    }
+
+    .logo {
+        margin-right: 400px;
     }
 
     .about>h1 {
