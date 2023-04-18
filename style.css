@@ -1564,6 +1564,7 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
 
     .container {
         margin-inline: 10px;
+        max-width: 640px;
     }
 
     .container-pd {
