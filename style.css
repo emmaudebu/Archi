@@ -1680,14 +1680,14 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
         margin-right: 0px;
     }
 
-    nav .bx-menu {
+    /* nav .bx-menu {
         display: block;
         font-size: 30px;
         margin-right: 0px;
         margin-left: 300px;
         padding-right: 0px;
 
-    }
+    } */
 
     nav ul {
 
