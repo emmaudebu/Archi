@@ -908,7 +908,7 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
 
     header nav {
         padding: 0px;
-        padding-left: 10px;
+        padding-left: 0px;
         margin-right: 0px;
     }
 
@@ -926,11 +926,15 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
 
     }
 
+    nav ul li {
+        margin-left: 10px;
+    }
+
 
     nav ul {
         /* display: none; */
         margin: 0px;
-        gap: 40px;
+        gap: 20px;
     }
 
     .company {
