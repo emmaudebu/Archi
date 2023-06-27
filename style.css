@@ -780,11 +780,18 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
   /* ########## nav mobile css ########### */
   nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 230px;
+    gap: 20px;
     padding-top: 5px;
     margin-top: 10px;
+    position: relative;
+  }
+  nav ul li {
+    margin: 10px;
+  }
+  nav ul {
+    display: none;
   }
 
   header nav {
@@ -800,9 +807,17 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
     padding-right: 0px;
   }
 
-  nav ul {
-    display: none;
-    margin: 0px;
+  .menuShow {
+    display: block;
+    margin: 85px 20px;
+    width: 350px;
+    padding: 30px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    background-color: #c6d8e2;
+    color: #edebeb;
   }
 
   .company {
