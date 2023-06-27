@@ -1,180 +1,161 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
-    --bgGrey: #2C2C2C;
-    --btnGrey: #333333;
-    --titleGrey: #BDBDBD;
-    --greyBg: #F3F3F3;
-
+  --bgGrey: #2c2c2c;
+  --btnGrey: #333333;
+  --titleGrey: #bdbdbd;
+  --greyBg: #f3f3f3;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto',
-        sans-serif;
-
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    transition: all .6s;
+  transition: all 0.6s;
 }
 
 /* utilities css */
 .container {
-    max-width: 1350px;
-    margin: auto;
+  max-width: 1350px;
+  margin: auto;
 }
 
 .container-pd {
-    padding-inline: 100px;
-
+  padding-inline: 100px;
 }
 
 .container-mg {
-    margin-inline: 100px;
+  margin-inline: 100px;
 }
 
 /* utilities css */
 /* nav css */
 nav {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 200px;
-    padding-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 200px;
+  padding-top: 30px;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 50px;
-    margin-left: 160px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 50px;
+  margin-left: 160px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #333333;
-    font-size: 13px;
-
+  text-decoration: none;
+  color: #333333;
+  font-size: 13px;
 }
 
 nav .bx-menu {
-    display: none;
+  display: none;
 }
 
 nav ul li:hover {
-
-    border-block: 1px solid #333333;
-    ;
+  border-block: 1px solid #333333;
 }
-
-
 
 /* nav css */
 
 /* hero css */
 .hero {
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
 }
 
 .heroImge {
-    position: relative;
-
-
+  position: relative;
 }
 
 .heroImge img {
-    height: 600px;
-    width: 760px;
+  height: 600px;
+  width: 760px;
 }
 
 .heroText {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-around;
-
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
 }
 
 .heroText h1:nth-child(1) {
-    font-family: inherit;
-    font-size: 64px;
-    font-weight: 300;
-    line-height: 64px;
-    color: var(--titleGrey);
-
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  color: var(--titleGrey);
+}
+.list-1 a {
+  color: white;
+  text-decoration: none;
 }
 
 .heroText h1:nth-child(2) {
-    font-family: inherit;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 64px;
-    margin-bottom: 90px;
-
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 90px;
 }
 
 .heroText span {
-    height: 53px;
-    width: 53px;
-    background: linear-gradient(0deg, #F2F2F2, #F2F2F2);
-    border: 1px solid #F2F2F2;
-    padding: 10px;
-
-
-
+  height: 53px;
+  width: 53px;
+  background: linear-gradient(0deg, #f2f2f2, #f2f2f2);
+  border: 1px solid #f2f2f2;
+  padding: 10px;
 }
 
 .paging {
-    margin-top: 90px;
-    font-family: inherit;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #bdbdbdbb;
-
+  margin-top: 90px;
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #bdbdbdbb;
 }
 
 .heroText .first {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .imgBtn {
-    position: absolute;
-    height: 60px;
-    width: 222px;
-    background-color: #fff;
-    border: none;
-    left: 0;
-    bottom: 0;
-
+  position: absolute;
+  height: 60px;
+  width: 222px;
+  background-color: #fff;
+  border: none;
+  left: 0;
+  bottom: 0;
 }
 
 .imgBtn:hover {
-    border: var(--titleGrey) solid 0.8px;
-    cursor: pointer;
+  border: var(--titleGrey) solid 0.8px;
+  cursor: pointer;
 }
 
 i.left {
-    transform: rotate(180deg);
-
-
+  transform: rotate(180deg);
 }
 
 .hero span:hover {
-    background: #fff;
-    cursor: pointer;
-    transform: scale(1.9);
-
+  background: #fff;
+  cursor: pointer;
+  transform: scale(1.9);
 }
 
 /* hero css */
@@ -182,604 +163,521 @@ i.left {
 /* company css */
 
 .company {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 40px;
-    background: #fbfbfbe6;
-    padding-inline: 100px;
-    margin-top: 50px;
-    height: 435px;
-
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  background: #fbfbfbe6;
+  padding-inline: 100px;
+  margin-top: 50px;
+  height: 435px;
 }
 
 .company-text {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .company-img img:nth-child(1) {
-    margin-top: 40px;
-    margin-bottom: 20px;
-
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
-.company-text>img {
-    margin-top: 50px;
-    height: 345px;
-    width: 270px;
-
+.company-text > img {
+  margin-top: 50px;
+  height: 345px;
+  width: 270px;
 }
 
 .company-img:nth-child(2) {
-    margin-top: 50px;
-
+  margin-top: 50px;
 }
 
-.about>h1 {
-    font-family: inherit;
-    font-size: 55px;
-    font-weight: 300;
-    line-height: 64px;
-    color: #BDBDBD;
-
-
+.about > h1 {
+  font-family: inherit;
+  font-size: 55px;
+  font-weight: 300;
+  line-height: 64px;
+  color: #bdbdbd;
 }
 
 .about-btn {
-
-    height: 60px;
-    width: 222px;
-    background-color: #fff;
-    border: none;
-    left: 0;
-    bottom: 0;
-    margin-top: 20px;
-
+  height: 60px;
+  width: 222px;
+  background-color: #fff;
+  border: none;
+  left: 0;
+  bottom: 0;
+  margin-top: 20px;
 }
 
 .about-btn:hover {
-    cursor: pointer;
-    border: .5px solid var(--titleGrey);
+  cursor: pointer;
+  border: 0.5px solid var(--titleGrey);
 }
 
 .about p {
-    margin-top: 20px;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 25px;
-
-
+  margin-top: 20px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
 }
-
 
 /* company css */
 
 /* numbers css */
 .numbers {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .numbers-details {
-    display: flex;
-    justify-content: start;
-    gap: 170px;
-
+  display: flex;
+  justify-content: start;
+  gap: 170px;
 }
 
 .numbers-details div {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    width: 500px;
-
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 500px;
 }
 
 .numbers-details div h1 {
-    font-family: inherit;
-    font-size: 150px;
-    font-weight: 900;
-    /* line-height: 239px; */
-    color: #F2F2F2;
-
-
+  font-family: inherit;
+  font-size: 150px;
+  font-weight: 900;
+  /* line-height: 239px; */
+  color: #f2f2f2;
 }
 
 .numbers-details div p {
-    padding-top: 40px;
-    line-height: 25px;
+  padding-top: 40px;
+  line-height: 25px;
 }
 
-.numbers>h1 {
-    font-family: inherit;
-    font-size: 64px;
-    font-weight: 300;
-    line-height: 64px;
-    color: #BDBDBD;
-
-
+.numbers > h1 {
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  color: #bdbdbd;
 }
 
 /* numbers css */
 
 /* pictures css */
 .images {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 .overlayer {
-    position: relative;
+  position: relative;
 }
 
 .overlayer:hover .over-section {
-    display: block;
+  display: block;
 }
 
 .over-section {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #2c2c2c6c;
-    top: 0;
-    color: white;
-    left: 0;
-    padding: 70px;
-    display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #2c2c2c6c;
+  top: 0;
+  color: white;
+  left: 0;
+  padding: 70px;
+  display: none;
 }
 
 .over-section h1 {
-    font-family: inherit;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 64px;
-
-
+  font-family: inherit;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64px;
 }
 
 .layerbtn {
-    background: transparent;
-    font-size: 18px;
-    color: #F3F3F3;
-    border: none;
-    cursor: pointer;
+  background: transparent;
+  font-size: 18px;
+  color: #f3f3f3;
+  border: none;
+  cursor: pointer;
 }
 
-.pictures>h1 {
-    font-family: inherit;
-    font-size: 64px;
-    font-weight: 300;
-    line-height: 64px;
-    color: #BDBDBD;
-    margin-block: 40px;
-
+.pictures > h1 {
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  color: #bdbdbd;
+  margin-block: 40px;
 }
 
 .BTN {
-    height: 60px;
-    width: 200px;
-    float: right;
-    background: #333333;
-    margin-right: -15px;
-
-
+  height: 60px;
+  width: 200px;
+  float: right;
+  background: #333333;
+  margin-right: -15px;
 }
 
 /* pictures css */
 
-
 /* contact css */
 
 .contact-form {
-    width: 350px;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    gap: 30px;
-
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 30px;
 }
 
 .form h1 {
-    font-family: inherit;
-    font-size: 64px;
-    font-weight: 300;
-    line-height: 64px;
-    color: #BDBDBD;
-    margin-bottom: 40px;
-
-
-
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  color: #bdbdbd;
+  margin-bottom: 40px;
 }
 
 form input {
-    width: 391px;
-    margin-bottom: 15px;
-    background: #F3F3F3;
-    height: 46px;
-    border: none;
-    border-radius: 6px;
-    padding-left: 8px;
-
+  width: 391px;
+  margin-bottom: 15px;
+  background: #f3f3f3;
+  height: 46px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 8px;
 }
 
 form textarea {
-    width: 391px;
-    margin-bottom: 20px;
-    background: #F3F3F3;
-    height: 130px;
-    border: none;
-    border-radius: 6px;
-    padding-left: 8px;
-
+  width: 391px;
+  margin-bottom: 20px;
+  background: #f3f3f3;
+  height: 130px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 8px;
 }
 
 .form {
-    margin-top: 140px;
-    margin-bottom: 120px;
+  margin-top: 140px;
+  margin-bottom: 120px;
 }
 
 .contactImg {
-
-    height: 369px;
-    width: 749px;
-
+  height: 369px;
+  width: 749px;
 }
 
 .form-BTN {
-    height: 60px;
-    width: 200px;
-    background: #333333;
-    margin-right: -15px;
-    margin-top: 15px;
-
-
+  height: 60px;
+  width: 200px;
+  background: #333333;
+  margin-right: -15px;
+  margin-top: 15px;
 }
 
 /* contact css */
 
-
 /* footer css */
 footer {
-    background: var(--bgGrey);
-    color: #fff;
-
+  background: var(--bgGrey);
+  color: #fff;
 }
 
 .footer-logo {
-    height: 94px;
-    width: 145px;
-
+  height: 94px;
+  width: 145px;
 }
 
 .footer-container {
-    display: flex;
-    gap: 120px;
-    height: 417px;
-    padding-top: 60px;
-
+  display: flex;
+  gap: 120px;
+  height: 417px;
+  padding-top: 60px;
 }
 
 footer section ul h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 footer section ul li {
-    list-style: none;
-    padding-block: 10px;
-    font-family: inherit;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 24px;
-    cursor: pointer;
-
-
+  list-style: none;
+  padding-block: 10px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
 }
 
 .list-2 {
-    width: 317px;
-
-
+  width: 317px;
 }
 
 .list-2 li {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
-
-
-
-
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
 .list-2 li i {
-    font-size: 20px;
-
-
+  font-size: 20px;
 }
 
 .copyright {
-    text-align: center;
-    font-family: inherit;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0px;
-    border-top: #BDBDBD .5px solid;
-    padding-block: 20px;
-
-
+  text-align: center;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  border-top: #bdbdbd 0.5px solid;
+  padding-block: 20px;
 }
 
 .social-media i {
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 25px;
-    cursor: pointer;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 25px;
+  cursor: pointer;
 }
 
 /* footer css */
-
-
 
 /* GALLERY PAGE CSS  */
 
 .gallery {
-    margin-block: 70px;
+  margin-block: 70px;
 }
 
 .gallery-layout {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
 }
 
 .gallery h1:nth-child(1) {
-    font-family: inherit;
-    font-size: 64px;
-    font-weight: 300;
-    line-height: 64px;
-    color: #BDBDBD;
-
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  color: #bdbdbd;
 }
 
 .img-box:hover .box-layer {
-    display: block;
+  display: block;
 }
 
 .img-box {
-    position: relative;
+  position: relative;
 }
 
 .box-layer p {
-    font-family: inherit;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    margin-top: 20px;
-    margin-inline: 20px;
-
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 20px;
+  margin-inline: 20px;
 }
 
 .box-layer {
-    display: none;
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    background: #edebeb;
-    bottom: 0;
-    left: 0;
-    cursor: pointer;
-
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background: #edebeb;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
 }
 
 .gallery h1:nth-child(2) {
-    font-family: inherit;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 64px;
-    color: #333333;
-    margin-bottom: 50px;
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #333333;
+  margin-bottom: 50px;
 }
-
-
 
 /* GALLERY PAGE CSS  */
 
-
 /* POST PAGE CSS  */
 .posts {
-    margin-block: 70px;
+  margin-block: 70px;
 }
 
 .posts h1:nth-child(2) {
-    font-family: inherit;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 64px;
-    color: #333333;
-    margin-bottom: 50px;
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #333333;
+  margin-bottom: 50px;
 }
 
 .posts h1:nth-child(1) {
-    font-family: inherit;
-    font-size: 64px;
-    font-weight: 300;
-    line-height: 64px;
-    color: #BDBDBD;
-
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  color: #bdbdbd;
 }
 
 .post-details h2 {
-    margin-top: 20px;
-    font-family: inherit;
-    font-size: 30px;
-    font-weight: 300;
-    line-height: 50px;
-    color: #BDBDBD;
-    ;
-
+  margin-top: 20px;
+  font-family: inherit;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #bdbdbd;
 }
 
 .post-details p {
-    margin-right: 150px;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 25px;
-
-
-
+  margin-right: 150px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
 }
 
 .post-box {
-    margin-bottom: 30px;
-    display: flex;
-    gap: 50px;
-    background: #FBFBFB;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 50px;
+  background: #fbfbfb;
 }
 
 .post-box img {
-    height: 300px;
-    width: 100%;
-
-
+  height: 300px;
+  width: 100%;
 }
 
 .post-btn {
-    height: 60px;
-    width: 222px;
-    background-color: #fff;
-    margin-top: 20px;
-    border: none;
-
+  height: 60px;
+  width: 222px;
+  background-color: #fff;
+  margin-top: 20px;
+  border: none;
 }
 
 .post-btn:hover {
-    border: var(--titleGrey) solid 0.8px;
-    cursor: pointer;
+  border: var(--titleGrey) solid 0.8px;
+  cursor: pointer;
 }
 
 .post-arrow {
-    height: 53px;
-    width: 53px;
-    background: linear-gradient(0deg, #F2F2F2, #F2F2F2);
-    border: 1px solid #F2F2F2;
-    padding: 5px;
-    margin-inline: 20px;
-    cursor: pointer;
-
+  height: 53px;
+  width: 53px;
+  background: linear-gradient(0deg, #f2f2f2, #f2f2f2);
+  border: 1px solid #f2f2f2;
+  padding: 5px;
+  margin-inline: 20px;
+  cursor: pointer;
 }
 
 .post-arrow:hover {
-    background: white;
+  background: white;
 }
 
 /* POST PAGE CSS  */
 
-
 /* Document PAGE CSS  */
 .document {
-    margin-block: 70px;
+  margin-block: 70px;
 }
 
 .document .paging {
-    text-align: right;
-
-
-
+  text-align: right;
 }
 
 .document-box img {
-    margin-right: 20px;
-    cursor: pointer;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
 .document h1:nth-child(1) {
-    font-family: inherit;
-    font-size: 64px;
-    font-weight: 300;
-    line-height: 64px;
-    color: #BDBDBD;
-
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  color: #bdbdbd;
 }
 
 .document h1:nth-child(2) {
-    font-family: inherit;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 64px;
-    color: #333333;
-    margin-bottom: 50px;
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #333333;
+  margin-bottom: 50px;
 }
 
 /* Document PAGE CSS  */
 
 /* contact PAGE CSS  */
 .contact-box {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .contact-details button {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .contact-details div {
-    margin-block: 40px;
+  margin-block: 40px;
 }
 
 .tel {
-    margin-block: 40px;
-
+  margin-block: 40px;
 }
 
 /* contact PAGE CSS  */
 
 /* post-dtails PAGE CSS  */
 .post-img {
-    height: 428px;
-    width: 419px;
-
-
+  height: 428px;
+  width: 419px;
 }
 
 .postdetail-box img {
-    height: 100%;
-    width: 100%;
-
-
+  height: 100%;
+  width: 100%;
 }
 
 .postdetail-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-block: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-block: 50px;
 }
 
 .postdetails p {
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 25px;
-
-
-
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
 }
 
 /* post-dtails PAGE CSS  */
-
 
 /* ############################################################################################################
 ############################################################################################################
@@ -789,755 +687,657 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
 ############################################################################################################
 ############################################################################################################ */
 
-
-
-@media screen and (max-width:768px) {
-    /* ########## Header mobile css ########### */
-
-    .container-pd {
-        padding-inline: 10px;
-
-    }
-
-    .container-mg {
-        margin-inline: 10px;
-    }
-
-    .hero {
-        flex-direction: column-reverse;
-        gap: 10px;
-    }
-
-    .heroImge {
-        width: 100%;
-    }
-
-    .heroImge img {
-        width: 100%;
-        height: 300px;
-
-    }
-
-    .heroText {
-        margin-top: 5px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
-        justify-content: space-around;
-        width: 100%;
-
-
-    }
-
-    .heroText h1 {
-        font-size: 20px;
-    }
-
-    .hero section {
-        display: flex;
-        gap: 20px;
-    }
-
-    .heroText h1:nth-child(1) {
-        font-family: inherit;
-        font-size: 30px;
-        font-weight: 300;
-        line-height: 34px;
-        color: var(--titleGrey);
-
-    }
-
-    .heroText h1:nth-child(2) {
-        font-family: inherit;
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 34px;
-        margin-bottom: 10px;
-
-    }
-
-    .heroText>div {
-        display: flex;
-        justify-content: space-between;
-        gap: 90px;
-    }
-
-    .heroText span {
-        height: 40px;
-        width: 40px;
-        background: linear-gradient(0deg, #F2F2F2, #F2F2F2);
-        border: 1px solid #F2F2F2;
-        border-radius: 50%;
-        /* padding: 10px; */
-
-
-
-    }
-
-    .paging {
-        margin-top: -40px;
-        font-family: inherit;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 24px;
-        color: #bdbdbdbb;
-
-    }
-
-    .heroText .first {
-        margin-right: 150px;
-    }
-
-
-    /* ########## Header mobile css ########### */
-
-    /* ########## nav mobile css ########### */
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 230px;
-        padding-top: 5px;
-        margin-top: 10px;
-    }
-
-    header nav {
-        padding: 0px;
-        padding-left: 10px;
-        margin-right: 0px;
-    }
-
-    nav .bx-menu {
-        display: block;
-        font-size: 30px;
-        margin-right: 0px;
-        padding-right: 0px;
-    }
-
-    nav ul {
-        display: none;
-        margin: 0px;
-    }
-
-    .company {
-        display: flex;
-        margin-top: 20px;
-        margin-bottom: 50px;
-        margin-inline: 0px;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        height: 100%;
-        gap: 0px;
-        background: #fbfbfbe6;
-        padding: 5px;
-
-
-    }
-
-    .company-text {
-        margin-top: 0px;
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .company-img img:nth-child(1) {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        width: 100%;
-
-    }
-
-    .company-text>img {
-        margin-top: 0px;
-        width: 100%;
-
-    }
-
-    .company-img img:nth-child(2) {
-        margin-top: 0px;
-        width: 100%;
-        margin-bottom: 0px;
-
-    }
-
-    .about>h1 {
-        font-family: inherit;
-        font-size: 33px;
-        font-weight: 300;
-        line-height: 64px;
-        color: #BDBDBD;
-
-
-    }
-
-    .about-btn {
-
-        height: 60px;
-        width: 100%;
-        background-color: #fff;
-        border: none;
-        left: 0;
-        bottom: 0;
-        margin-top: 20px;
-        margin-bottom: 10px;
-
-    }
-
-    .about-btn:hover {
-        cursor: pointer;
-        border: .5px solid var(--titleGrey);
-    }
-
-    .about p {
-        margin-top: 0px;
-        font-family: inherit;
-        font-size: 16px;
-        font-weight: 300;
-        line-height: 25px;
-        padding: 10px;
-
-
-    }
-
-
-
-
-    /* ########## company mobile css ########### */
-
-    /* ########## number section mobile css ########### */
-
-    .numbers {
-        margin-top: 10px;
-    }
-
-    .numbers-details {
-        display: flex;
-        justify-content: start;
-        flex-direction: column;
-        gap: 10px;
-
-    }
-
-    .numbers-details div {
-        display: flex;
-
-        align-items: start;
-        justify-content: center;
-        width: 100%;
-
-    }
-
-    .numbers-details div h1 {
-        font-family: inherit;
-        font-size: 150px;
-        font-weight: 900;
-        /* line-height: 239px; */
-        color: #F2F2F2;
-
-
-    }
-
-    .numbers-details div p {
-        padding-top: 40px;
-        line-height: 25px;
-        font-size: 14px;
-    }
-
-    .numbers>h1 {
-        font-family: inherit;
-        font-size: 34px;
-        font-weight: 300;
-        line-height: 44px;
-        color: #BDBDBD;
-
-
-    }
-
-    /* ########## number section mobile css ########### */
-
-
-
-
-    /* ########## pictures section mobile css ########### */
-    .images {
-        margin-bottom: 20px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .overlayer {
-        position: relative;
-    }
-
-    .overlayer img {
-        width: 100%;
-    }
-
-    .overlayer:hover .over-section {
-        display: block;
-    }
-
-    .over-section {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background: #2c2c2c6c;
-        top: 0;
-        color: white;
-        left: 0;
-        padding: 30px;
-        display: none;
-    }
-
-    .over-section h1 {
-        font-family: inherit;
-        font-size: 25px;
-        font-weight: 500;
-        line-height: 34px;
-
-
-    }
-
-    .layerbtn {
-        background: transparent;
-        margin-top: 20px;
-        font-size: 18px;
-        color: #F3F3F3;
-        border: none;
-        cursor: pointer;
-    }
-
-    .pictures>h1 {
-        font-family: inherit;
-        font-size: 34px;
-        font-weight: 300;
-        line-height: 44px;
-        color: #BDBDBD;
-        margin-block: 20px;
-
-    }
-
-    .BTN {
-        height: 60px;
-        width: 200px;
-
-        float: right;
-        background: #333333;
-        margin-right: 15px;
-
-
-    }
-
-
-    /* ########## form section mobile css ########### */
-
-    .contact-form {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: start;
-        gap: 10px;
-
-    }
-
-    .form h1 {
-        font-family: inherit;
-        font-size: 34px;
-        font-weight: 300;
-        line-height: 44px;
-        color: #BDBDBD;
-        margin-bottom: 10px;
-
-
-
-    }
-
-    form input {
-        width: 100%;
-        margin-bottom: 15px;
-        background: #F3F3F3;
-        height: 46px;
-        border: none;
-        border-radius: 6px;
-        padding-left: 8px;
-
-    }
-
-    form textarea {
-        width: 100%;
-        margin-bottom: 20px;
-        background: #F3F3F3;
-        height: 130px;
-        border: none;
-        border-radius: 6px;
-        padding-left: 8px;
-
-    }
-
-    .form {
-        margin-top: 140px;
-        margin-bottom: 50px;
-    }
-
-    .contactImg {
-
-        height: 369px;
-        width: 100%;
-        object-fit: cover;
-
-    }
-
-    .form-BTN {
-        height: 60px;
-        width: 200px;
-        background: #333333;
-        margin-right: -15px;
-        margin-top: 15px;
-
-
-    }
-
-
-    /* ########## form section mobile css ########### */
-
-    /* ########## form section mobile css ########### */
-    footer {
-        background: var(--bgGrey);
-        color: #fff;
-
-    }
-
-    .footer-logo {
-        height: 94px;
-        width: 145px;
-
-    }
-
-    .footer-container {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        height: 100%;
-        padding-top: 60px;
-
-    }
-
-    footer section ul h2 {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-
-    footer section ul li {
-        list-style: none;
-        padding-block: 10px;
-        font-family: inherit;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 24px;
-        cursor: pointer;
-
-
-    }
-
-    .list-2 {
-        width: 317px;
-
-
-    }
-
-    .list-2 li {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-bottom: 10px;
-
-
-
-
-    }
-
-    .list-2 li i {
-        font-size: 19px;
-
-
-    }
-
-    .copyright {
-        text-align: center;
-        font-family: inherit;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 22px;
-        letter-spacing: 0px;
-        border-top: #BDBDBD .5px solid;
-        padding-block: 20px;
-
-
-    }
-
-    .social-media i {
-        margin-top: 10px;
-        padding: 10px;
-        font-size: 19px;
-        cursor: pointer;
-    }
-
-
-    /* ########## form section mobile css ########### */
-
-    /* ########## Gallery page mobile css ########### */
-
-
-
-    .gallery {
-        padding-top: 20px;
-        margin-block: 10px;
-    }
-
-    .gallery-layout {
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        margin-bottom: 10px;
-    }
-
-
-    .gallery h1:nth-child(1) {
-        font-family: inherit;
-        font-size: 30px;
-        font-weight: 300;
-        line-height: 40px;
-        color: #BDBDBD;
-
-    }
-
-    .img-box:hover .box-layer {
-        display: block;
-    }
-
-    .img-box {
-        position: relative;
-        width: 100%;
-    }
-
-    .img-box>img {
-        height: 400px;
-        width: 100%;
-    }
-
-    .box-layer p {
-        font-family: inherit;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 18px;
-        margin-top: 40px;
-        margin-inline: 20px;
-
-    }
-
-    .box-layer {
-        display: none;
-        position: absolute;
-        width: 100%;
-        height: 30%;
-        background: #edebeb;
-        bottom: 0;
-        left: 0;
-        cursor: pointer;
-
-    }
-
-    .gallery h1:nth-child(2) {
-        font-family: inherit;
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 40px;
-        color: #333333;
-        margin-bottom: 30px;
-    }
-
-
-    /* ########## Gallery page  mobile css ########### */
-
-
-    /* ########## post page  mobile css ########### */
-
-    .posts {
-        margin-block: 10px;
-    }
-
-    .posts h1:nth-child(2) {
-        font-family: inherit;
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 40px;
-        color: #333333;
-        margin-bottom: 50px;
-    }
-
-    .posts h1:nth-child(1) {
-        padding-top: 30px;
-        font-family: inherit;
-        font-size: 40px;
-        font-weight: 300;
-        line-height: 30px;
-        color: #BDBDBD;
-
-    }
-
-    .post-details h2 {
-        margin-top: 10px;
-        font-family: inherit;
-        font-size: 30px;
-        font-weight: 300;
-        line-height: 30px;
-        color: #BDBDBD;
-        ;
-
-    }
-
-    .post-details p {
-        margin-right: 10px;
-        font-family: inherit;
-        font-size: 16px;
-        font-weight: 300;
-        line-height: 25px;
-
-
-
-    }
-
-    .post-box {
-        margin-bottom: 30px;
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-        background: #FBFBFB;
-    }
-
-    .post-box img {
-        height: 300px;
-        width: 100%;
-
-
-    }
-
-    .post-btn {
-        height: 60px;
-        width: 222px;
-        background-color: #fff;
-        margin-top: 20px;
-        border: none;
-
-    }
-
-    .post-btn:hover {
-        border: var(--titleGrey) solid 0.8px;
-        cursor: pointer;
-    }
-
-    .post-arrow {
-        height: 53px;
-        width: 53px;
-        background: linear-gradient(0deg, #F2F2F2, #F2F2F2);
-        border: 1px solid #F2F2F2;
-        padding: 5px;
-        margin-inline: 20px;
-        cursor: pointer;
-
-    }
-
-    .post-arrow:hover {
-        background: white;
-    }
-
-    .postdetail-box {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        margin-block: 10px;
-    }
-
-    .postdetails p {
-        font-family: inherit;
-        font-size: 16px;
-        font-weight: 300;
-        line-height: 25px;
-
-    }
-
-    .detail-nav {
-        margin-top: 40px;
-    }
-
-
-    /* ########## post page  mobile css ########### */
-
-
-    /* ########## contact page  mobile css ########### */
-    .document h1:nth-child(1) {
-        font-family: inherit;
-        font-size: 30px;
-        font-weight: 300;
-        line-height: 40px;
-        color: #BDBDBD;
-
-    }
-
-    .contact-details {
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .document h1:nth-child(2) {
-        font-family: inherit;
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 64px;
-        color: #333333;
-        margin-bottom: 10px;
-    }
-
-    .contact-box {
-        flex-direction: column;
-        gap: 10px;
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
-        padding: 10px;
-    }
-
-    .contact-map {
-        margin-top: 20px;
-        width: 100%;
-    }
-
-    iframe {
-        width: 100%;
-    }
-
-    /* ########## contact page  mobile css ########### */
-
-
-
-
-
-
-
-
-    /* ############################################################################################################
+@media screen and (max-width: 768px) {
+  /* ########## Header mobile css ########### */
+
+  .container-pd {
+    padding-inline: 10px;
+  }
+
+  .container-mg {
+    margin-inline: 10px;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .heroImge {
+    width: 100%;
+  }
+
+  .heroImge img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .heroText {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .heroText h1 {
+    font-size: 20px;
+  }
+
+  .hero section {
+    display: flex;
+    gap: 20px;
+  }
+
+  .heroText h1:nth-child(1) {
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 34px;
+    color: var(--titleGrey);
+  }
+
+  .heroText h1:nth-child(2) {
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 10px;
+  }
+
+  .heroText > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+  }
+
+  .heroText span {
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(0deg, #f2f2f2, #f2f2f2);
+    border: 1px solid #f2f2f2;
+    border-radius: 50%;
+    /* padding: 10px; */
+  }
+
+  .paging {
+    margin-top: -40px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #bdbdbdbb;
+  }
+
+  .heroText .first {
+    margin-right: 150px;
+  }
+
+  /* ########## Header mobile css ########### */
+
+  /* ########## nav mobile css ########### */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 230px;
+    padding-top: 5px;
+    margin-top: 10px;
+  }
+
+  header nav {
+    padding: 0px;
+    padding-left: 10px;
+    margin-right: 0px;
+  }
+
+  nav .bx-menu {
+    display: block;
+    font-size: 30px;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  nav ul {
+    display: none;
+    margin: 0px;
+  }
+
+  .company {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-inline: 0px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    gap: 0px;
+    background: #fbfbfbe6;
+    padding: 5px;
+  }
+
+  .company-text {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .company-img img:nth-child(1) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+
+  .company-text > img {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .company-img img:nth-child(2) {
+    margin-top: 0px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .about > h1 {
+    font-family: inherit;
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 64px;
+    color: #bdbdbd;
+  }
+
+  .about-btn {
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    left: 0;
+    bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .about-btn:hover {
+    cursor: pointer;
+    border: 0.5px solid var(--titleGrey);
+  }
+
+  .about p {
+    margin-top: 0px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    padding: 10px;
+  }
+
+  /* ########## company mobile css ########### */
+
+  /* ########## number section mobile css ########### */
+
+  .numbers {
+    margin-top: 10px;
+  }
+
+  .numbers-details {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .numbers-details div {
+    display: flex;
+
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .numbers-details div h1 {
+    font-family: inherit;
+    font-size: 150px;
+    font-weight: 900;
+    /* line-height: 239px; */
+    color: #f2f2f2;
+  }
+
+  .numbers-details div p {
+    padding-top: 40px;
+    line-height: 25px;
+    font-size: 14px;
+  }
+
+  .numbers > h1 {
+    font-family: inherit;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44px;
+    color: #bdbdbd;
+  }
+
+  /* ########## number section mobile css ########### */
+
+  /* ########## pictures section mobile css ########### */
+  .images {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .overlayer {
+    position: relative;
+  }
+
+  .overlayer img {
+    width: 100%;
+  }
+
+  .overlayer:hover .over-section {
+    display: block;
+  }
+
+  .over-section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #2c2c2c6c;
+    top: 0;
+    color: white;
+    left: 0;
+    padding: 30px;
+    display: none;
+  }
+
+  .over-section h1 {
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 34px;
+  }
+
+  .layerbtn {
+    background: transparent;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #f3f3f3;
+    border: none;
+    cursor: pointer;
+  }
+
+  .pictures > h1 {
+    font-family: inherit;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44px;
+    color: #bdbdbd;
+    margin-block: 20px;
+  }
+
+  .BTN {
+    height: 60px;
+    width: 200px;
+
+    float: right;
+    background: #333333;
+    margin-right: 15px;
+  }
+
+  /* ########## form section mobile css ########### */
+
+  .contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .form h1 {
+    font-family: inherit;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44px;
+    color: #bdbdbd;
+    margin-bottom: 10px;
+  }
+
+  form input {
+    width: 100%;
+    margin-bottom: 15px;
+    background: #f3f3f3;
+    height: 46px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 8px;
+  }
+
+  form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    background: #f3f3f3;
+    height: 130px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 8px;
+  }
+
+  .form {
+    margin-top: 140px;
+    margin-bottom: 50px;
+  }
+
+  .contactImg {
+    height: 369px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .form-BTN {
+    height: 60px;
+    width: 200px;
+    background: #333333;
+    margin-right: -15px;
+    margin-top: 15px;
+  }
+
+  /* ########## form section mobile css ########### */
+
+  /* ########## form section mobile css ########### */
+  footer {
+    background: var(--bgGrey);
+    color: #fff;
+  }
+
+  .footer-logo {
+    height: 94px;
+    width: 145px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    padding-top: 60px;
+  }
+
+  footer section ul h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  footer section ul li {
+    list-style: none;
+    padding-block: 10px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+  }
+
+  .list-2 {
+    width: 317px;
+  }
+
+  .list-2 li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .list-2 li i {
+    font-size: 19px;
+  }
+
+  .copyright {
+    text-align: center;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    border-top: #bdbdbd 0.5px solid;
+    padding-block: 20px;
+  }
+
+  .social-media i {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 19px;
+    cursor: pointer;
+  }
+
+  /* ########## form section mobile css ########### */
+
+  /* ########## Gallery page mobile css ########### */
+
+  .gallery {
+    padding-top: 20px;
+    margin-block: 10px;
+  }
+
+  .gallery-layout {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .gallery h1:nth-child(1) {
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+    color: #bdbdbd;
+  }
+
+  .img-box:hover .box-layer {
+    display: block;
+  }
+
+  .img-box {
+    position: relative;
+    width: 100%;
+  }
+
+  .img-box > img {
+    height: 400px;
+    width: 100%;
+  }
+
+  .box-layer p {
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 40px;
+    margin-inline: 20px;
+  }
+
+  .box-layer {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background: #edebeb;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+  }
+
+  .gallery h1:nth-child(2) {
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 30px;
+  }
+
+  /* ########## Gallery page  mobile css ########### */
+
+  /* ########## post page  mobile css ########### */
+
+  .posts {
+    margin-block: 10px;
+  }
+
+  .posts h1:nth-child(2) {
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 50px;
+  }
+
+  .posts h1:nth-child(1) {
+    padding-top: 30px;
+    font-family: inherit;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #bdbdbd;
+  }
+
+  .post-details h2 {
+    margin-top: 10px;
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #bdbdbd;
+  }
+
+  .post-details p {
+    margin-right: 10px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+
+  .post-box {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: #fbfbfb;
+  }
+
+  .post-box img {
+    height: 300px;
+    width: 100%;
+  }
+
+  .post-btn {
+    height: 60px;
+    width: 222px;
+    background-color: #fff;
+    margin-top: 20px;
+    border: none;
+  }
+
+  .post-btn:hover {
+    border: var(--titleGrey) solid 0.8px;
+    cursor: pointer;
+  }
+
+  .post-arrow {
+    height: 53px;
+    width: 53px;
+    background: linear-gradient(0deg, #f2f2f2, #f2f2f2);
+    border: 1px solid #f2f2f2;
+    padding: 5px;
+    margin-inline: 20px;
+    cursor: pointer;
+  }
+
+  .post-arrow:hover {
+    background: white;
+  }
+
+  .postdetail-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-block: 10px;
+  }
+
+  .postdetails p {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+
+  .detail-nav {
+    margin-top: 40px;
+  }
+
+  /* ########## post page  mobile css ########### */
+
+  /* ########## contact page  mobile css ########### */
+  .document h1:nth-child(1) {
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+    color: #bdbdbd;
+  }
+
+  .contact-details {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .document h1:nth-child(2) {
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+
+  .contact-box {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  .contact-map {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  /* ########## contact page  mobile css ########### */
+
+  /* ############################################################################################################
 ############################################################################################################
 
 MEDIA QUERY FOR RESPONSIVE DEVICES
@@ -1546,11 +1346,6 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
 ############################################################################################################ */
 }
 
-
-
 /* ############################################################################################################ ############################################################################################################ */
 
-
-
 /* tablets */
-z
