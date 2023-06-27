@@ -810,10 +810,10 @@ MEDIA QUERY FOR RESPONSIVE DEVICES
   .menuShow {
     display: block;
     margin: 85px 20px;
-    width: 80vw;
+    width: 90vw;
     padding: 30px;
     top: 0;
-    left: 0;
+
     position: absolute;
     z-index: 1;
     background-color: #c6d8e2;
